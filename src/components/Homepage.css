@@ -1,0 +1,79 @@
+.header {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+.inicio {
+  font-size: 25px;
+  position: relative;
+  border-left: 0.10em;
+  margin: 15px 5px 8px 30px;
+  width: 9em;
+  height: 2em;
+  cursor: pointer;
+;
+}
+.inicio::before,
+.inicio::after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  border-left: inherit;
+  z-index: -1;
+}
+.inicio::before {
+  height: 80%;
+  top: 10%;
+  left: calc(-0.15em - 0.08em * 3);
+  filter: brightness(0.8);
+}
+.inicio::after {
+  height: 60%;
+  top: 20%;
+  left: calc(-0.15em * 3 - 0.08em * 3);
+  filter: brightness(0.6);
+}
+
+.inicio span {
+  position: relative;
+  height: 120%;
+  top: -15%;
+  filter: brightness(1);
+  box-sizing: border-box; 
+  border: 0.08em solid;
+  background-color: #7a3;
+  background-image: linear-gradient(0deg, #777, #7a3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  transform: translateX(calc(-0.15em * 8 - 0.08em * 3));
+  transition: 0.3s;
+}
+
+.inicio:hover span {
+  transform: translateX(0.45em);
+}
+.inicio :placeholder {
+ opacity: 0.1;
+}
+
+.medio {
+  width: 80%;
+  text-align: justify;
+  height: 180px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+footer {
+  text-align: center;
+  margin-top: 5px;
+}

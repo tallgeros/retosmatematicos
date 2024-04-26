@@ -1,0 +1,35 @@
+.page1 {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+
+  text-align: center;
+}
+
+.text1 {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: auto 20px auto 20px;
+}
+.cubogame {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 15px auto 15px auto;
+}
+.cubo {
+  display: flex;
+  flex: 1 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: 1px solid orange;
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+}

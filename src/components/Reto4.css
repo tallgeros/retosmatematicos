@@ -1,0 +1,31 @@
+.page4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4 { 
+  text-align: center;
+  width: 80%;
+  height: 20px;
+}
+
+.cubogame {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 15px auto 15px auto;
+}
+.cubo {
+  display: flex;
+  flex: 1 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: 1px solid orange;
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+}

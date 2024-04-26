@@ -1,0 +1,35 @@
+.page5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+h4 {
+  text-align: center;
+
+}
+
+.escalera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+
+}
+.fila {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  
+}
+.piedra {
+  width: 45px;
+  height: 45px;
+  border: 2px double orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}

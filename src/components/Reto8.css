@@ -1,0 +1,37 @@
+.page8 {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+h2 { text-align: center;}
+.ku { 
+  text-align: center; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  font-weight: 700;}
+.crucigrama {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: .5px;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+.sudo {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #0d61ce;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+}
+.blanco {
+  border: none;
+}

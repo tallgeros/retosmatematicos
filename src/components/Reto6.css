@@ -1,0 +1,73 @@
+.page6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-weight: 700;
+  height: 20px;
+}
+h4 { 
+  text-align: center;
+  width: 80%;
+  height: 20px;
+}
+.gamecubo {
+  display: flex; 
+  flex-direction: row;
+  height: 161px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.cubogrid {
+  display: grid;
+  grid-template-columns: repeat(3, 55px);
+  grid-template-rows: repeat(3,60px);
+  grid-column-gap: 3px;
+  grid-row-gap : 3px;
+  width: 161px;
+  margin: 15px auto 15px auto;
+}
+.cuadrado {
+  display: flex;
+  background-color: orange;
+  border: 1px solid orange;
+  width: 55px;
+  height: 55px;
+  margin: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical{
+  display: flex;
+  width: 55px;
+  height: 55px;
+  background-color: orange;
+  margin: 3px 20px 5px -100px;
+  border: 2px double orange;
+  text-align: end;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.line-horizonte {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 18px 65px 15px 20px;
+}
+.horizontal {
+  width: 55px;
+  height: 55px;
+  background-color: orange;
+  margin: 0px 3px 0px 3px;
+  border: 2px double orange;
+  text-align: center;
+  font-size: 1.5rem;
+}
